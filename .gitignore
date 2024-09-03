@@ -1,2 +1,4 @@
 .envrc
 .direnv
+# used for some testing
+file.txt
