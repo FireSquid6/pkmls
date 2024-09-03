@@ -1,6 +1,16 @@
 package main
 
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
 
 func main() {
-  println("Hello world!")
+  reader := bufio.NewReader(os.Stdin)
+  for {
+    text, _ := reader.ReadString('\n')
+    fmt.Println(text)
+  }
 }
