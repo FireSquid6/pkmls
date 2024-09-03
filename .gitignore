@@ -2,3 +2,6 @@
 .direnv
 # used for some testing
 file.txt
+
+# binary file
+pkmlsp
